@@ -5,6 +5,7 @@ import { Button } from "../components/Button/Button";
 import { Divider } from "../components/Divider/Divider";
 import { PreviewColorToken } from "../components/PreviewColorToken/PreviewColorToken";
 import { Text } from "../components/Text/Text";
+import { appStyles, headerStyles, typographyWrapperStyles } from "../index.css";
 import {
   darkThemeClass,
   lightThemeClass,
@@ -14,7 +15,6 @@ import {
   TThemeTypographyKey,
   vars,
 } from "../theme.css";
-import { appStyles, headerStyles, typographyWrapperStyles } from "./index.css";
 
 const Home: NextPage = () => {
   const [currentTheme, setCurrentTheme] = useState(lightThemeClass);
