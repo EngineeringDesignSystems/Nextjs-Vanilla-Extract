@@ -304,6 +304,15 @@ export const darkTheme = {
 };
 
 /**
+ * List of ALL themes
+ */
+
+export const themes = {
+  lightTheme,
+  darkTheme,
+};
+
+/**
  * Light Theme tools
  */
 export const [lightThemeClass, vars] = createTheme(themeShape);
