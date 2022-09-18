@@ -40,6 +40,7 @@ export type TThemeTypographyVariant = TTypographyStyles; // for objects storing 
 /**
  * Typography variant values
  */
+
 const typography: TTypography = {
   heading1: {
     fontSize: "48.83000183105469px",
@@ -123,9 +124,9 @@ const typography: TTypography = {
 
 /**
  * Shared theme Values Object
- * This is anything that doesn't change between themes.
+ * This is anything that doesn't change between themes and exists in all themes.
  */
-const sharedThemeValues = {
+export const sharedThemeValues = {
   typography,
   spacing: {
     0: "0px",
