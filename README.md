@@ -43,5 +43,5 @@ In order to run this on your local:
 
 ```
 yarn install
-yarn start
+yarn dev
 ```
