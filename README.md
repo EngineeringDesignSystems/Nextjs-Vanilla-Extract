@@ -1,5 +1,8 @@
 # Actionable Design Systems: React + Vanilla Extract + Recipes
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c4189fb-75ea-4fb7-85c5-9edcbc9cc763/deploy-status)](https://app.netlify.com/sites/eds-vanilla-extract-recipes/deploys)
+
+- [Live Site](https://eds-vanilla-extract-recipes.netlify.app)
 - [Figma Mockup](https://www.figma.com/file/zwUGIhow83YT0bCceds8Ow/Design-System-Starter?node-id=0%3A1)
 
 ## Overview
