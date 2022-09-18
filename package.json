@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vanilla-extract/babel-plugin": "^1.2.0",
+    "@vanilla-extract/next-plugin": "^2.0.2",
+    "@vanilla-extract/recipes": "^0.2.5",
+    "@vanilla-extract/sprinkles": "^1.5.0",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
