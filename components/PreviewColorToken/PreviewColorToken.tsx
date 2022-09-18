@@ -20,8 +20,6 @@ export const PreviewColorToken: React.FC<TPreviewColorTokenProps> = ({
   isCoreColor = false,
 }) => {
   const primitiveColorName = getPrimitiveName(colorVariant);
-  console.log("AAAA", primitiveColorName);
-
   return (
     <div className={outerWrapperStyles}>
       <Text styleVariant="heading5">{colorVariant}</Text>
